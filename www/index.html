@@ -13,7 +13,7 @@
     <meta property="og:url" content="hauck-daniel.de" />
     <meta property="og:image" content="" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
-    <link rel="shortcut icon" href=""/>
+    <link rel="shortcut icon" href="favicon.ico"/>
     <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/jquery.mousewheel-min.js"></script>
     <script src="js/jquery.terminal-min.js"></script>
@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
                 var whois = "Name: \t\t\tDaniel Hauck\n" +
                 "Email: \t\t   daniel@hauck.it\n" +
                 "Location: \t\tLeinfelden-Echterdingen\n" +
-                "Profession: \t  System Administrator & Backend Developer\n";
+                "Profession: \t  System Administrator & Backend Developer\n" +
                 "Homepage: \t  https://blog.hauck.io\n";
                 term.echo(whois);
                 break;
@@ -128,9 +128,11 @@ jQuery(document).ready(function($) {
 
 
             case 'help':
-                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects")
+                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects, getyourown, exit")
                 break;
-
+            case 'exit':
+                window.close();
+                break;
             case 'getyourown':
                 window.location = "https://github.com/hauckd/terminalCV";
                 break;
