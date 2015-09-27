@@ -38,7 +38,7 @@ jQuery(document).ready(function($) {
                 "Email: \t\t   daniel@hauck.it\n" +
                 "Location: \t\tLeinfelden-Echterdingen\n" +
                 "Profession: \t  System Administrator & Backend Developer\n" +
-                "Homepage: \t  https://blog.hauck.io\n";
+                "Homepage: \t\thttps://blog.hauck.io\n";
                 term.echo(whois);
                 break;
             case 'about': 
@@ -128,14 +128,12 @@ jQuery(document).ready(function($) {
 
 
             case 'help':
-                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects, getyourown, exit")
-                break;
-            case 'exit':
-                window.close();
+                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects, getyourown")
                 break;
             case 'getyourown':
                 window.location = "https://github.com/hauckd/terminalCV";
                 break;
+
             case 'docker':
                 term.echo("You can't get twitter followers or github stars here ;)");
                 break;
