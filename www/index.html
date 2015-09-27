@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Daniel Hauck</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniel Hauck, System Engineer & Backenddeveloper, Linux Administrator, Python Developer, based in Stuttgart, Database Adminstrator(DBA)">
+    <meta name="author" content="Daniel Hauck">    
+    <meta property="og:title" content="Daniel Hauck - Portfolio" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="hauck-daniel.de" />
+    <meta property="og:image" content="" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
+    <link rel="shortcut icon" href=""/>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.mousewheel-min.js"></script>
+    <script src="js/jquery.terminal-min.js"></script>
+    <link href="css/jquery.terminal.css" rel="stylesheet"/>
+    <style> 
+        body {
+            width: 800px;
+            font-size: 18px;
+        }
+    </style>
+  </head>
+<body>
+
+<script>
+jQuery(document).ready(function($) {
+    $('body').terminal(function(command, term) {
+        commands = command.split(/[ ]+/);
+
+        switch(commands[0]) {
+            case 'whois':
+                var whois = "Name: \t\t\tDaniel Hauck\n" +
+                "Email: \t\t   daniel@hauck.it\n" +
+                "Location: \t\tLeinfelden-Echterdingen\n" +
+                "Profession: \t  System Administrator & Backend Developer\n";
+                "Homepage: \t  https://blog.hauck.io\n";
+                term.echo(whois);
+                break;
+            case 'about': 
+                var about = "I work as a system engineer and backend developer.    I am specialized in building high performance  and  highly availabe infrastructures and I am a lover of  fast and simple systems. My current interests are  automation, IoT, databases(SQL, NoSQL) and workflow  simplification and optimization. If you are interested  in my work, take a look at the 'Latest Projects' or  take a look at my blog";
+                term.echo(about);
+                break;
+            case 'social':
+                
+                    term.echo("Twitter: https://twitter.com/daniel_hauck");
+                
+
+                
+                    term.echo("G+: https://plus.google.com/u/1/+DanielHauckLinux");
+                
+
+                
+                    term.echo("LinkedIn: https://de.linkedin.com/pub/daniel-hauck/74/283/943");
+                
+
+                
+                    term.echo("GitHub: https://github.com/hauckd");
+                
+                break;
+                
+            case 'skills':
+                
+                    var stars_length = Math.round(90 / 20);
+                    var stars_filled = Array(stars_length + 1).join("&#9733;")
+                    var stars_blank= Array(6 - stars_length).join("&#9734;")
+                    term.echo("Linux --> " + stars_filled + stars_blank);
+                
+                    var stars_length = Math.round(90 / 20);
+                    var stars_filled = Array(stars_length + 1).join("&#9733;")
+                    var stars_blank= Array(6 - stars_length).join("&#9734;")
+                    term.echo("Automation --> " + stars_filled + stars_blank);
+                
+                    var stars_length = Math.round(80 / 20);
+                    var stars_filled = Array(stars_length + 1).join("&#9733;")
+                    var stars_blank= Array(6 - stars_length).join("&#9734;")
+                    term.echo("Database Administrator --> " + stars_filled + stars_blank);
+                
+                    var stars_length = Math.round(60 / 20);
+                    var stars_filled = Array(stars_length + 1).join("&#9733;")
+                    var stars_blank= Array(6 - stars_length).join("&#9734;")
+                    term.echo("Python --> " + stars_filled + stars_blank);
+                
+                break;
+            
+            case 'languages':
+                
+                    term.echo("German - Native Speaker");
+                
+                    term.echo("English - Business Fluent");
+                
+                break;
+            case 'tools':
+                
+                    term.echo("&#128295; vim");
+                
+                    term.echo("&#128295; tmux");
+                
+                    term.echo("&#128295; git");
+                
+                    term.echo("&#128295; ansible");
+                
+                    term.echo("&#128295; salt");
+                
+                    term.echo("&#128295; nginx");
+                
+                    term.echo("&#128295; python");
+                
+                    term.echo("&#128295; many more");
+                
+                break;
+
+            case 'projects':
+                
+                    term.echo("didit");
+                    term.echo("Didit is a small service which emails you in defined period and asks you what you have done, or what you haven't done. You just reply to the mail with the tasks you have done, or tasks you haven't done for a reason. Now everbody has replied in a range of time, didit collects the information of the team members and sends an email to everyone that they can see, what the other members have done");
+                    term.echo("-----------------------");
+                
+                    term.echo("PySnipp");
+                    term.echo("PySnipp is a command line application for collecting snippets and notes. For example you could store often used pieces of code there. For adding and editing your snippets the text editor vim is used");
+                    term.echo("-----------------------");
+                
+                break;
+
+
+            case 'help':
+                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects")
+                break;
+
+            case 'docker':
+                term.echo("You can't get twitter followers or github stars here ;)");
+                break;
+
+            case 'vim':
+                term.echo("I love it too, but sadly it's not available here :(");
+                break;
+
+            case ':(':
+                term.echo("Smile!");
+                break;
+                
+
+            default: 
+                term.echo("unknow command " + command);
+        }
+    }, {
+        prompt: '~ > ',
+        greetings: "Welcome to the command line portfolio of Daniel Hauck" +
+        "\n\n" +
+        "If you would like the more 'normal'"+ 
+        "\n" +
+        "version head over to http://hauck-daniel.de" +
+        "\n\n" +
+        "Type 'help' to get a list of commands",
+        onBlur: function() {
+            return false;
+        }
+    });
+});
+
+</script>
+</body>

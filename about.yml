@@ -1,0 +1,75 @@
+title: Daniel Hauck - System Engineer & Backend Developer
+name: Daniel Hauck
+email: daniel@hauck.it
+url: hauck-daniel.de
+location: Leinfelden-Echterdingen
+favicon: favicon.ico
+ext_link: https://blog.hauck.io
+description: Daniel Hauck, System Engineer & Backenddeveloper, Linux Administrator, Python Developer, based in Stuttgart, Database Adminstrator(DBA) 
+long_description: >
+    I work as a system engineer and backend developer.   
+    I am specialized in building high performance  and 
+    highly availabe infrastructures and I am a lover of 
+    fast and simple systems. My current interests are 
+    automation, IoT, databases(SQL, NoSQL) and workflow 
+    simplification and optimization. If you are interested 
+    in my work, take a look at the 'Latest Projects' or 
+    take a look at my blog.
+profession: System Administrator & Backend Developer
+twitter_link: https://twitter.com/daniel_hauck
+gplus_link: https://plus.google.com/u/1/+DanielHauckLinux
+linkedin_link: https://de.linkedin.com/pub/daniel-hauck/74/283/943
+github_link: https://github.com/hauckd
+
+projects: 
+        - title: didit
+          image: images/project_didit.png
+          link: didit.notimetoexplain.de
+          description: >
+            Didit is a small service which emails you in defined period and asks you what you have done,
+            or what you haven't done.
+            You just reply to the mail with the tasks you have done, or tasks you haven't done for a reason.
+            Now everbody has replied in a range of time, didit collects the information of the team members
+            and sends an email to everyone that they can see, what the other members have done.
+
+        - title: PySnipp
+          description: >
+              PySnipp is a command line application for collecting snippets and notes. For example you could store often used pieces of code there. For adding and editing your snippets the text editor vim is used.
+
+
+skills:
+        - name: Linux
+          description: profound linux command line knowledge in general
+          percentage: 90
+
+        - name: Automation
+          descripition: Continous Deployment and Integration, Server Installation and Environment Provision
+          percentage: 90
+
+        - name: Database Administrator      
+          descripition: RDMBS(PostgreSQL, MySQL) and NoSQL(MongoDB, Redis, ArangoDB) 
+          percentage: 80
+
+        - name: Python 
+          descripition: Backend Development
+          percentage: 60 
+
+languages:
+        - name: German
+          level: Native Speaker   
+          stars: 5
+
+        - name: English
+          level: Business Fluent
+          stars: 4
+        
+        
+tools:
+    - vim
+    - tmux
+    - git
+    - ansible 
+    - salt
+    - nginx
+    - python
+    - many more
