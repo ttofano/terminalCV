@@ -131,6 +131,9 @@ jQuery(document).ready(function($) {
                 term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects")
                 break;
 
+            case 'getyourown':
+                window.location = "https://github.com/hauckd/terminalCV";
+                break;
             case 'docker':
                 term.echo("You can't get twitter followers or github stars here ;)");
                 break;
@@ -149,7 +152,7 @@ jQuery(document).ready(function($) {
         }
     }, {
         prompt: '~ > ',
-        greetings: "Welcome to the command line portfolio of Daniel Hauck" +
+        greetings: "Welcome to the command line CV of Daniel Hauck" +
         "\n\n" +
         "If you would like the more 'normal'"+ 
         "\n" +
