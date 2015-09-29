@@ -1,5 +1,6 @@
 # terminalCV
 A command line CV for sysadmins
+This is still WIP, and I am about to add some features.
 
 # watch it live
 
