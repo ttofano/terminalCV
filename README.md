@@ -4,8 +4,10 @@ Ainda é um WIP, e estamos para adicionar algumas características.
 Este é um fork do trabalho de [@hauckd](http://github.com/hauckd/) (Daniel Hauck). Thanks for this, man! ;)
 Este fork é principalmente para tradução pt_BR e algumas pequenas adaptações pessoais.
 
+
 ### Veja ao vivo!
 Você pode ver meu terminalCV ao vivo aqui: http://tofanodesigns.com/cli/
+
 
 ### Uso
 terminalCV é um pequeno script Python que usa jinja2 para renderizar um template html com algum javascript nele. Depois da renderização, você só precisa subir para seu site (onde preferir).
@@ -23,17 +25,18 @@ E finalmente, renderize a página:
 $ python render.py
 ```
 
+
 Se tudo funcionou corretamente, você pode subir os arquivos para sua www:
 ```bash
 $ rsync -aH www/ usuario@webhost:/pasta/de/destino
 ```
 
-### Jquery-Terminal
-terminalCV faz uso do [JQuery-Terminal, por J. Cubics](http://terminal.jcubic.pl/).
-Obrigado por isso.
 
-### Original hauckd (em inglês)
-O Projeto original pode ser encontrado [aqui](http://github.com/hauckd/terminalCV/)
+### Jquery-Terminal & Projeto Original
+terminalCV faz uso do [JQuery-Terminal, por J. Cubics](http://terminal.jcubic.pl/).
+O Projeto original pode ser encontrado [aqui](http://github.com/hauckd/terminalCV/).
+Obrigado, caras, vocês são fantásticos.
+
 
 ### Detalhes e Adicionais
 ```bash
