@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Daniel Hauck</title>
+    <title>Thiago Tofano - System Admin & Web Designer</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Daniel Hauck, System Engineer & Backenddeveloper, Linux Administrator, Python Developer, based in Stuttgart, Database Adminstrator(DBA)">
-    <meta name="author" content="Daniel Hauck">    
-    <meta property="og:title" content="Daniel Hauck - Portfolio" />
+    <meta name="description" content="Thiago Tofano, Linux System Admin & Web Designer, based in Brasil">
+    <meta name="author" content="Thiago Tofano">    
+    <meta property="og:title" content="Thiago Tofano - Portfolio" />
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="hauck-daniel.de" />
+    <meta property="og:url" content="tofanodesigns.com/perfil" />
     <meta property="og:image" content="" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
     <link rel="shortcut icon" href="favicon.ico"/>
@@ -21,7 +21,7 @@
     <style> 
         body {
             width: 800px;
-            font-size: 18px;
+            font-size: 10px;
         }
     </style>
   </head>
@@ -34,32 +34,32 @@ jQuery(document).ready(function($) {
 
         switch(commands[0]) {
             case 'whois':
-                var whois = "Name: \t\t\tDaniel Hauck\n" +
-                "Email: \t\t   daniel@hauck.it\n" +
-                "Location: \t\tLeinfelden-Echterdingen\n" +
-                "Profession: \t  System Administrator & Backend Developer\n" +
-                "Homepage: \t\thttps://blog.hauck.io\n";
+                var whois = "Nome: \t\t\tThiago Tofano\n" +
+                "Email: \t\t   thiagotofano@gmail.com\n" +
+                "Endereço: \t\tEspirito Santo-Brasil\n" +
+                "Profissão:  \t  Linux System Admin & Web Designer\n" +
+                "Homepage: \t\thttp://www.tofanodesigns.com/\n";
                 term.echo(whois);
                 break;
             case 'about': 
-                var about = "I work as a system engineer and backend developer.    I am specialized in building high performance  and  highly availabe infrastructures and I am a lover of  fast and simple systems. My current interests are  automation, IoT, databases(SQL, NoSQL) and workflow  simplification and optimization. If you are interested  in my work, take a look at the 'Latest Projects' or  take a look at my blog";
+                var about = "Quinze anos de experiência na área de Informática  (incluindo trabalhos autônomos), bom conhecimento  em design e programação web, fluente em Inglês.  Autodidata, a maior parte do conhecimento aqui descrito  foi obtida através de estudo, dedicação e auto-disciplina.  Tenho uma grande paixão por tecnologia e desenvolvimento  tecnológico. I work as a system engineer and backend developer.    I am specialized in building high performance  and  highly availabe infrastructures and I am a lover of  fast and simple systems. My current interests are  automation, IoT, databases(SQL, NoSQL) and workflow  simplification and optimization. If you are interested  in my work, take a look at the 'Latest Projects' or  take a look at my blog";
                 term.echo(about);
                 break;
             case 'social':
                 
-                    term.echo("Twitter: https://twitter.com/daniel_hauck");
+                    term.echo("Twitter: https://twitter.com/#");
                 
 
                 
-                    term.echo("G+: https://plus.google.com/u/1/+DanielHauckLinux");
+                    term.echo("G+: https://plus.google.com/+thiagotofano");
                 
 
                 
-                    term.echo("LinkedIn: https://de.linkedin.com/pub/daniel-hauck/74/283/943");
+                    term.echo("LinkedIn: https://br.linkedin.com/in/thiagotofano");
                 
 
                 
-                    term.echo("GitHub: https://github.com/hauckd");
+                    term.echo("GitHub: https://github.com/ttofano");
                 
                 break;
                 
@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
             
             case 'languages':
                 
-                    term.echo("German - Native Speaker");
+                    term.echo("Portugues - Native Speaker");
                 
                     term.echo("English - Business Fluent");
                 
@@ -128,7 +128,7 @@ jQuery(document).ready(function($) {
 
 
             case 'help':
-                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects, getyourown")
+                term.echo("Comandos disponíveis: whois, about, skills, help, social, languages, tools, projects, getyourown")
                 break;
             case 'getyourown':
                 window.location = "https://github.com/hauckd/terminalCV";
@@ -148,17 +148,17 @@ jQuery(document).ready(function($) {
                 
 
             default: 
-                term.echo("Unknown command " + command);
+                term.echo("unknow command " + command);
         }
     }, {
         prompt: '~ > ',
-        greetings: "Welcome to the command line CV of Daniel Hauck" +
+        greetings: "Bem vindo ao CV em linha de comando de Thiago Tofano" +
         "\n\n" +
-        "If you would like the more 'normal'"+ 
+        "Se você prefere a versão 'normal'"+ 
         "\n" +
-        "version head over to http://hauck-daniel.de" +
+        "vá para http://tofanodesigns.com/perfil" +
         "\n\n" +
-        "Type 'help' to get a list of commands",
+        "Digite 'help' para ver a lista de comandos",
         onBlur: function() {
             return false;
         }

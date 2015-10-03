@@ -1,12 +1,19 @@
-title: Daniel Hauck - System Engineer & Backend Developer
-name: Daniel Hauck
-email: daniel@hauck.it
-url: hauck-daniel.de
-location: Leinfelden-Echterdingen
+title: Thiago Tofano - System Admin & Web Designer
+name: Thiago Tofano
+email: thiagotofano@gmail.com
+url: tofanodesigns.com/perfil
+location: Espirito Santo-Brasil
 favicon: favicon.ico
-ext_link: https://blog.hauck.io
-description: Daniel Hauck, System Engineer & Backenddeveloper, Linux Administrator, Python Developer, based in Stuttgart, Database Adminstrator(DBA) 
+ext_link: http://www.tofanodesigns.com/
+description: Thiago Tofano, Linux System Admin & Web Designer, based in Brasil 
 long_description: >
+    Quinze anos de experiência na área de Informática 
+    (incluindo trabalhos autônomos), bom conhecimento 
+    em design e programação web, fluente em Inglês. 
+    Autodidata, a maior parte do conhecimento aqui descrito 
+    foi obtida através de estudo, dedicação e auto-disciplina. 
+    Tenho uma grande paixão por tecnologia e desenvolvimento 
+    tecnológico.
     I work as a system engineer and backend developer.   
     I am specialized in building high performance  and 
     highly availabe infrastructures and I am a lover of 
@@ -15,11 +22,11 @@ long_description: >
     simplification and optimization. If you are interested 
     in my work, take a look at the 'Latest Projects' or 
     take a look at my blog.
-profession: System Administrator & Backend Developer
-twitter_link: https://twitter.com/daniel_hauck
-gplus_link: https://plus.google.com/u/1/+DanielHauckLinux
-linkedin_link: https://de.linkedin.com/pub/daniel-hauck/74/283/943
-github_link: https://github.com/hauckd
+profession: Linux System Admin & Web Designer
+twitter_link: https://twitter.com/#
+gplus_link: https://plus.google.com/+thiagotofano
+linkedin_link: https://br.linkedin.com/in/thiagotofano
+github_link: https://github.com/ttofano
 
 projects: 
         - title: didit
@@ -55,7 +62,7 @@ skills:
           percentage: 60 
 
 languages:
-        - name: German
+        - name: Portugues
           level: Native Speaker   
           stars: 5
 

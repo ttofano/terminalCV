@@ -21,7 +21,7 @@
     <style> 
         body {
             width: 800px;
-            font-size: 18px;
+            font-size: 10px;
         }
     </style>
   </head>
@@ -34,10 +34,10 @@ jQuery(document).ready(function($) {
 
         switch(commands[0]) {
             case 'whois':
-                var whois = "Name: \t\t\t{{ about.name }}\n" +
+                var whois = "Nome: \t\t\t{{ about.name }}\n" +
                 "Email: \t\t   {{ about.email}}\n" +
-                "Location: \t\t{{ about.location }}\n" +
-                "Profession: \t  {{ about.profession  }}\n" +
+                "Endereço: \t\t{{ about.location }}\n" +
+                "Profissão:  \t  {{ about.profession  }}\n" +
                 "Homepage: \t\t{{ about.ext_link }}\n";
                 term.echo(whois);
                 break;
@@ -93,7 +93,7 @@ jQuery(document).ready(function($) {
 
 
             case 'help':
-                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects, getyourown")
+                term.echo("Comandos disponíveis: whois, about, skills, help, social, languages, tools, projects, getyourown")
                 break;
             case 'getyourown':
                 window.location = "https://github.com/hauckd/terminalCV";
@@ -117,13 +117,13 @@ jQuery(document).ready(function($) {
         }
     }, {
         prompt: '~ > ',
-        greetings: "Welcome to the command line CV of {{ about.name }}" +
+        greetings: "Bem vindo ao CV em linha de comando de {{ about.name }}" +
         "\n\n" +
-        "If you would like the more 'normal'"+ 
+        "Se você prefere a versão 'normal'"+ 
         "\n" +
-        "version head over to http://{{ about.url }}" +
+        "vá para http://{{ about.url }}" +
         "\n\n" +
-        "Type 'help' to get a list of commands",
+        "Digite 'help' para ver a lista de comandos",
         onBlur: function() {
             return false;
         }
