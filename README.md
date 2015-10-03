@@ -11,7 +11,7 @@ Você pode ver meu terminalCV ao vivo aqui: http://tofanodesigns.com/cli/
 terminalCV é um pequeno script Python que usa jinja2 para renderizar um template html com algum javascript nele. Depois da renderização, você só precisa subir para seu site (onde preferir).
 
 Para usá-lo, clone o repositório e instale os requisitos com `pip`:
-```bashscript
+```bash
 $ git clone git@github.com:ttofano/terminalCV.git && cd terminalCV
 $ sudo pip install -r requirements.txt
 ```
@@ -19,24 +19,24 @@ $ sudo pip install -r requirements.txt
 Modifique o about.yml com seu editor de texto favorito.
 
 E finalmente, renderize a página:
-```bashscript
+```bash
 $ python render.py
 ```
 
 Se tudo funcionou corretamente, você pode subir os arquivos para sua www:
-```bashscript
+```bash
 $ rsync -aH www/ usuario@webhost:/pasta/de/destino
 ```
 
 ### Jquery-Terminal
-terminalCV faz uso do [JQuery-Terminal, por J. Cubics](http://terminal.jcubic.pl/)
+terminalCV faz uso do [JQuery-Terminal, por J. Cubics](http://terminal.jcubic.pl/).
 Obrigado por isso.
 
 ### Original hauckd (em inglês)
 O Projeto original pode ser encontrado [aqui](http://github.com/hauckd/terminalCV/)
 
 ### Detalhes e Adicionais
-```bashscript
+```bash
 $ sh details_progress.sh 
 CUSTOMIZATION PROGRESS: [#####---------------------------------------------] 10%
 ```
