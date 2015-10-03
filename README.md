@@ -38,8 +38,16 @@ O Projeto original pode ser encontrado [aqui](http://github.com/hauckd/terminalC
 Obrigado, caras, vocês são fantásticos.
 
 
-### Detalhes e Adicionais
+### Progresso da Customização e Detalhes Adicionais
 ```bash
 $ sh details_progress.sh 
-CUSTOMIZATION PROGRESS: [#####---------------------------------------------] 10%
+CUSTOMIZATION PROGRESS: [######----------------------------------] 20%
+Tradução:		[ OK ]
+Café:			[ OK ]
+CSS Personalizado:	[ OK ]
+JS Personalizado:	[FAIL]
+Comandos Personalizado:	[FAIL]
+Divulgação:		[FAIL]
+Extensão da Navegação:	[FAIL]
+Easter-eggs:		[FAIL]
 ```
