@@ -42,12 +42,12 @@ Obrigado, caras, vocês são fantásticos.
 ```bash
 $ sh details_progress.sh 
 CUSTOMIZATION PROGRESS: [######----------------------------------] 20%
-Tradução:		[ OK ]
-Café:			[ OK ]
-CSS Personalizado:	[ OK ]
-JS Personalizado:	[FAIL]
-Comandos Personalizado:	[FAIL]
-Divulgação:		[FAIL]
-Extensão da Navegação:	[FAIL]
-Easter-eggs:		[FAIL]
+Tradução:                [ OK ]
+Café:                    [ OK ]
+CSS Personalizado:       [ OK ]
+JS Personalizado:        [FAIL]
+Comandos Personalizado:  [FAIL]
+Divulgação:              [FAIL]
+Extensão da Navegação:   [FAIL]
+Easter-eggs:             [FAIL]
 ```
